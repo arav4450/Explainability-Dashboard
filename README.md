@@ -8,16 +8,18 @@
 
 <h1>Model Explainability Dashboard 🚀</h1>
 
-<p>This project provides a dashboard for explaining black-box machine learning models using <strong>SHAP (SHapley Additive exPlanations)</strong> and <strong>LIME (Local Interpretable Model-agnostic Explanations)</strong>. Built with <strong>Streamlit</strong> for the frontend and <strong>FastAPI</strong> for the backend, it allows users to upload data, select an explainability method, and visualize feature contributions.</p>
+<p>This project provides a dashboard for explaining black-box machine learning models using <strong>SHAP (SHapley Additive exPlanations)</strong> and <strong>LIME (Local Interpretable Model-agnostic Explanations)</strong>. Built with <strong>Streamlit</strong> for the frontend and <strong>FastAPI</strong> for the backend, it allows users to upload model and data files, select an explainability method, and visualize feature contributions.</p>
 
 <hr>
 
 <h2>✨ <strong>Features</strong></h2>
 <ul>
+    <li><strong>Upload model Files:</strong> Easily upload models in pickle format.</li>
     <li><strong>Upload CSV Files:</strong> Easily upload datasets for model explanation.</li>
     <li><strong>SHAP and LIME Support:</strong> Choose between SHAP and LIME for different types of explanations.</li>
-    <li><strong>Streamlit Interface:</strong> User-friendly and intuitive web interface.</li>
+    <li><strong>Streamlit Interface:</strong> User-friendly web interface.</li>
 </ul>
+<hr>
 
 <h2>📦 <strong>Installation</strong></h2>
 
